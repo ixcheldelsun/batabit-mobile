@@ -161,19 +161,20 @@ main {
     font: var(--font-inter);
 }
 
-.main-table .currency-table--title {
+.main-table .table--title {
     margin-bottom: 15px;
+    padding-left: 20px;
     font-size: 1.8rem;
     font-weight: bold;
     line-height: 2.3rem;
-    color: var(--bitcoin-orange);
-} 
+    text-align: start;
+}
 
-.main-table .comision-table--title {
-    margin-bottom: 15px;
-    font-size: 1.8rem;
-    font-weight: bold;
-    line-height: 2.3rem;
+.main-table .table--title__currency {
+    color: var(--bitcoin-orange);
+}
+
+.main-table .table--title__comision {
     color: var(--secondary-blue);
 }
 
