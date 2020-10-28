@@ -265,3 +265,10 @@ main {
     font-weight: 300;
     color: var(--warm-black);
 }
+.main-product-detail {
+    position: relative;
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    padding: 20px 10px;
+}
