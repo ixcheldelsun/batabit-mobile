@@ -571,6 +571,11 @@ footer section {
     width: 50%;
 }
 
+footer .footer-right img {
+    width: 64px;
+    height: 64px;
+}
+
 footer .footer-left ul {
     font-size: 1.4rem;
     font-weight: 500;
